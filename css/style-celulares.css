@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #000003;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    flex: 1;
+}
+
+.post{
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.sub-post {
+    display: flex;
+    flex-wrap: wrap; /* quebra linha se não couber */
+    gap: 20px; /* espaço entre os cards */
+    justify-content: center; /* centraliza na horizontal */
+}
+
+/* .post-content {
+    text-align: center !important;
+} */
+
+/* Menu de navegação */
+nav {
+    background-color: #647bb5;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #2e243d;
+}
+
+.container {
+    text-align: center;
+    display: grid;
+    max-width: 800px;
+}
+
+.celulares {
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    width: 250px; /* define largura dos cards */
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.price {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #000;
+    font-size: 14px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celulares</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-light">
+
+    <header class="site-header">
+        <h1>Recomendo Tech</h1>
+    </header>
+
+    <nav id="menu"></nav>
+
+    <main>
+
+        <article>
+            <h1 class="mb-3">Samsung Galaxy Z Flip7 FE 128GB 8GB</h1>
+            O <strong>Samsung Galaxy Z Flip7 FE</strong> chega para revolucionar a forma como você usa seu smartphone. 
+            <p>Com design dobrável inovador, potência de última geração e inteligência artificial integrada, 
+            ele combina estilo, praticidade e desempenho em um único dispositivo.</p>
+            <img src="/images/produtos/celulares/galaxy-z-flip7/galaxy-z-flip7-fe.webp" style="width: 400px;" alt="Imagem do post">
+            <div class="center-button">
+                <a href="/produto/celulares/galaxy-z-flip7.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+        </article>
+
+        <hr>
+
+        <article>
+            <h1 class="mb-3">Samsung Galaxy S24 Plus</h1>
+            <p>Conheça o <strong>Samsung Galaxy S24+</strong>, o smartphone premium que entrega performance, design e tecnologia de ponta. </p>
+            Com sua tela QHD+ de 6,7” 120Hz, processador moderno e câmeras versáteis, ele está pronto para qualquer uso: de fotos incríveis a jogos e multitarefa pesada.</p>
+            <img src="/images/produtos/celulares/samsung-galaxy-s24-plus/img01-samsung-galaxy-s24-plus.webp" style="width: 400px;" alt="Imagem do post"></p>
+            <div class="center-button">
+                <a href="/produto/celulares/galaxy-s24-plus.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+        </article>
+
+        <hr>
+
+        <article>
+            <h1 class="mb-3">Xiaomi Redmi Note 14 Dual Sim 256gb 8gb 4g</h1>
+            <p>O <strong>Redmi Note 14</strong> entrega um equilíbrio impressionante entre desempenho, câmera e autonomia. </p>
+            <p></p>Com tela AMOLED fluida de 120Hz, câmera de 108MP para fotos cheias de detalhes, bateria grande de 5500mAh e versões com até 256GB de armazenamento, ele tem o que você precisa para todos os dias.</p>
+            <img src="/images/produtos/celulares/redmi-note-14/redmi-note.webp" style="width: 400px;" alt="Xiaomi Redmi Note 14">
+            <div class="center-button">
+                <a href="/produto/celulares/redmi-Note-14.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+        </article>
+
+        <hr>
+
+        <article>
+            <h1 class="mb-3">Smartphone Motorola Moto G15 - 128gb 12gb</h1>
+            <p><strong>O smartphone ideal para quem quer desempenho, longa autonomia e câmeras versáteis.</strong> 
+            O Moto g05 oferece 128GB de armazenamento, até 12GB de RAM com a função RAM Boost, câmera dupla traseira com modo retrato e bateria super duradoura de 5200mAh.</p>
+            <img src="/images/produtos/celulares/moto-g15/img01-moto-g15.webp" style="width: 400px;" alt="Imagem do post"></p>
+            <div class="center-button">
+                <a href="/produto/celulares/moto-g15.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+        </article>
+
+        <article>
+            <div class="center-button">
+                <!-- <a href="/paginas/smartphones/smartphones.html" class="btn-proxima-pagina active">1</a>
+                <a href="/paginas/smartphones/smartphones-2.html" class="btn-proxima-pagina">2</a>
+                <a href="/paginas/smartphones/smartphones-3.html" class="btn-proxima-pagina">3</a> -->
+            </div>
+        </article>
+
+    </main>
+
+    <nav id="footer"></nav>
+
+    <script>
+    fetch("/rodape.html")
+    .then(resp => resp.text())
+    .then(html => document.getElementById("footer").innerHTML = html);
+    </script>
+
+    <script>
+    fetch("/nav.html")
+    .then(resp => resp.text())
+    .then(html => document.getElementById("menu").innerHTML = html);
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

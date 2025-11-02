@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <title>produto</title> -->
+  <title>HD Im1 Intelbras</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-light">
+
+    <!-- Cabeçalho com título -->
+    <header class="site-header">
+        <h1>Recomendo Tech</h1>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav id="menu"></nav>
+
+    <!-- Article centralizado -->
+    <main>
+        <article>
+            <h1 class="mb-3 center" >Câmera Inteligente HD Im1 Intelbras</h1>
+            <img src="/images/produtos/cameras/camera006/img01-intelbras.webp" style="width: 400px;" alt="Imagem do post">
+        </article>
+
+        <section class="produto-visao-geral">
+            <h2 class="center">Visão Geral</h2>
+            <p>A câmera de segurança inteligente <strong>iM1 da Intelbras</strong> foi desenvolvida para cuidar da sua residência com excelente custo-benefício. 
+            Todo o controle (instalação, gravação, notificações) estará nas mãos do usuário, e você pode acessar as imagens de qualquer lugar via aplicativo Mibo Cam.</p>
+            <article>
+                <img src="/images/produtos/cameras/camera006/img02-intelbras.webp" style="width: 400px;" alt="Imagem do post">
+            </article>
+        </section>
+
+        <section class="produto-caracteristicas">
+        <h2 class="center">Principais Funcionalidades</h2>
+        <ul>
+            <li>Interação por voz (alto-falante embutido) e áudio bidirecional</li>
+            <li>Visão noturna com infravermelho, até 10 metros</li>
+            <li>Detecção de movimento com notificação via app</li>
+            <li>Modo Day & Night automático, cor ou preto e branco</li>
+            <li>Configurações avançadas: WDR digital, BLC, redução de ruído (DNR 3D)</li>
+            <article>
+                <img src="/images/produtos/cameras/camera006/img03-intelbras.webp" style="width: 400px;" alt="Imagem do post">
+            </article>
+        </ul>
+        </section>
+
+        <section class="produto-especificacoes">
+        <h2 class="center">Especificações Técnicas</h2>
+        <ul>
+            <li><strong>Sensor:</strong> 1/4” 2 Megapixel Progressive</li>
+            <li><strong>Resolução real:</strong> HD 720p (1280 × 720)</li>
+            <li><strong>Lente:</strong> 2,6 mm</li>
+            <li><strong>Ângulo de visão:</strong> 114° diagonal / 93° horizontal / 50° vertical</li>
+            <li><strong>Zoom digital:</strong> até 8×</li>
+            <li><strong>Visão noturna (IR):</strong> até 10 metros</li>
+            <li><strong>Armazenamento:</strong> MicroSD até 256 GB</li>
+            <li><strong>Protocolo de rede:</strong> Wi-Fi 802.11 b/g/n — 2,4 GHz</li>
+            <li><strong>Protocolos suportados:</strong> RTSP, RTMP, ONVIF (perfil S), Intelbras-1, IPv4</li>
+            <li><strong>Compressão de vídeo:</strong> H.264</li>
+            <li><strong>Compressão de áudio:</strong> AAC</li>
+            <li><strong>Alimentação:</strong> via conector micro USB, consumo máximo ~3,2 W</li>
+            <li><strong>Dimensões:</strong> 60 × 34,3 × 99 mm</li>
+            <li><strong>Peso:</strong> 64,4 g</li>
+            <li><strong>Faixa de temperatura de operação:</strong> –10 °C a +45 °C</li>
+            <li><strong>Umidade operacional:</strong> até 95% sem condensação</li>
+            <li><strong>Certificação Anatel:</strong> 05683-22-10749</li>
+        </ul>
+        <article>
+                <img src="/images/produtos/cameras/camera006/img05-intelbras.webp" style="width: 400px;" alt="Imagem do post">
+            </article>
+        </section>
+
+            <!-- <div class="center-button">
+                <iframe width="900" height="450" src="https://www.youtube.com/embed/gsWE2XL4l6k?si=tcLqMe3xt1falNP1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div> -->
+            
+            <br><br>
+            <div class="center-button">
+                <a href="https://mercadolivre.com/sec/2SRwQS7" class="btn-saiba-mais">Veja a oferta do produto!</a>
+            </div>
+
+            <br><br>
+        </section>
+    </main>
+
+    <!-- Menu de navegação -->
+    <nav id="footer"></nav>
+
+    <script>
+    fetch("/nav.html")
+    .then(resp => resp.text())
+    .then(html => document.getElementById("menu").innerHTML = html);
+    </script>
+
+    <script>
+    fetch("/rodape.html")
+    .then(resp => resp.text())
+    .then(html => document.getElementById("footer").innerHTML = html);
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

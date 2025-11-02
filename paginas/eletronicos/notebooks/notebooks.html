@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notebooks</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-light">
+
+    <!-- Cabeçalho com título -->
+    <header class="site-header">
+        <h1>Recomendo Tech</h1>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav id="menu"></nav>
+
+    <!-- Article centralizado -->
+    <main>
+        <article>
+            <h1 class="mb-3">Notebook Positivo Vision C14 Linux</h1>
+            <p> O <strong>Notebook Positivo Vision C14</strong> foi desenvolvido para oferecer praticidade e eficiência em tarefas leves, 
+            como planilhas, edição de textos e navegação na web. Ideal para estudantes e profissionais que precisam de um notebook 
+            portátil e funcional no dia a dia.</p>
+            <img src="/images/produtos/notebooks/positivo-vision-c14-lumina-bar-celeron-linux-8gb/img01-positivo-c14-luminar.webp" style="width: 400px;" alt="Notebook Positivo Vision C14">
+            <div class="center-button">
+                <a href="/produto/notebooks/positivo-c14-luminar-linux.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+        </article>
+
+        <hr>
+
+        <article>
+        <h1 class="mb-3">Notebook Positivo Vision C14 Intel Windows </h1>
+            <p>Descubra a nova linha de <strong>notebooks Positivo Vision</strong>, desenvolvida para oferecer praticidade, conforto 
+            e eficiência em todas as suas tarefas diárias. Ideal para estudar, trabalhar, navegar na internet e participar de 
+            videochamadas com qualidade.</p>
+            <img src="/images/produtos/notebooks/positivo-vision-c14-lumina-bar-celeron-linux-8gb/img01-positivo-c14-luminar.webp" style="width: 400px;" alt="Notebook Positivo Vision C14">
+            <div class="center-button">
+                <a href="/produto/notebooks/positivo-c14-luminar-windows.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+        </article>
+
+        <hr>
+
+        <article>
+        <h1 class="mb-3">Acer Aspire 3 Intel </h1>
+            <p>O <strong>Acer Aspire 3 A315-510P-34XC</strong> combina desempenho e eficiência 
+            para tarefas do dia a dia. Com SSD NVMe de 256 GB, ele oferece inicializações 
+            rápidas e armazenamento ágil.</p>
+            <img src="/images/produtos/notebooks/acer-aspire-3-intel/img01-acer-aspire-3-intel.webp" style="width: 400px;" alt="Notebook Positivo Vision C14">
+            <div class="center-button">
+                <a href="/produto/notebooks/acer-aspire-3-intel.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+        </article>
+
+        <hr>
+
+        <article>
+        <h1 class="mb-3">Hp 256R G9 C i5 </h1>
+            <p>O <strong>Notebook HP com Intel Core i5 de 13ª geração</strong> é a solução perfeita para quem busca desempenho, mobilidade e confiabilidade. 
+            Com <strong>16GB de memória DDR4</strong>, <strong>SSD NVMe de 256GB</strong> e tela de 15,6” HD antirreflexo, oferece a velocidade e a eficiência necessárias para trabalho, estudos e lazer.  </p>
+            <img src="/images/produtos/notebooks/notebook-hp-256r-g9-ci5/img01-hp-256r-g9-ci5.webp" style="width: 400px;" alt="Notebook Positivo Vision C14">
+            <div class="center-button">
+                <a href="/produto/notebooks/hp-256r-g9.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+        </article>
+    </main>
+
+    <!-- Menu de navegação -->
+    <nav id="footer"></nav>
+
+    <script>
+    fetch("/rodape.html")
+    .then(resp => resp.text())
+    .then(html => document.getElementById("footer").innerHTML = html);
+    </script>
+
+    <script>
+    fetch("/nav.html")
+    .then(resp => resp.text())
+    .then(html => document.getElementById("menu").innerHTML = html);
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
