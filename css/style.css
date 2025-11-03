@@ -1,6 +1,6 @@
 main {
-  max-width: 900px;  /* controla a largura do conteúdo */
-  margin: 20px auto; /* centraliza no meio */
+  max-width: 900px; 
+  margin: 20px auto;
   background: #fff;
   padding: 20px;
   border-radius: 8px;
@@ -8,10 +8,17 @@ main {
   flex: 1;
 }
 
-body {
-  display: flex;
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
   flex-direction: column;
-  min-height: 100vh;
+}
+
+#footer {
+  margin-top: auto;
+  width: 100%;
 }
 
 article img {
